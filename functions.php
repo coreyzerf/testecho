@@ -15,11 +15,11 @@
 	}
 	
 	function acctverify($username){
-		$connection = mysqli_connect('localhost', 'zerfca_admin', 'echolakecamp1956!');
+		$connection = mysqli_connect('localhost', '', '!');
 		if (!$connection){
 			die("Database Connection Failed" . mysqli_error($connection));
 		}
-		$select_db = mysqli_select_db($connection, 'zerfca_echo');
+		$select_db = mysqli_select_db($connection, '');
 		if (!$select_db){
 			die("Database Selection Failed" . mysqli_error($connection));
 		}
@@ -46,11 +46,11 @@
 	}
 	
 	function eligible($username, $alert){
-		$connection = mysqli_connect('localhost', 'zerfca_admin', 'echolakecamp1956!');
+		$connection = mysqli_connect('localhost', '', '!');
 		if (!$connection){
 			die("Database Connection Failed" . mysqli_error($connection));
 		}
-		$select_db = mysqli_select_db($connection, 'zerfca_echo');
+		$select_db = mysqli_select_db($connection, '');
 		if (!$select_db){
 			die("Database Selection Failed" . mysqli_error($connection));
 		}
