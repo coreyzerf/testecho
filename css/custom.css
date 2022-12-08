@@ -1,0 +1,129 @@
+/*----------Custom Parameters----------*/
+.nav-tabs > li > a.active {
+	background-color: #6b1110!important;
+	color:white!important;
+}
+.nav-tabs > li > a:hover {
+	background-color: #6b1110!important;
+}
+.nav-tabs > li > a{
+	border-color: transparent!important;	
+	color:white!important;
+	background-color: rgb(107,17,16,0.5);
+}
+.btn-link {
+    color:white!important;
+}
+.btn-link:hover{
+    background-color: rgb(7,49,83,0.5);
+}
+.nav-tabs {
+	border-bottom: #6b1110!important;
+}
+.btn-ered {
+	background-color: rgb(107,17,16)!important;
+	border-color: rgb(107,17,16,0.5)!important
+}
+.white {
+	color: white;
+}
+
+.whitelink {
+	color: white;
+}
+
+.whitelink:hover{
+	color: #808080;
+}
+
+.text-muted {
+    color: #bfbfbf !important;
+}
+
+.bgimg{
+	background:url(../images/els.png) no-repeat;
+}
+
+a{
+	color: #13106b;
+}
+
+a:hover{
+	color: rgb(7,49,83);
+}
+
+/*----------Sizing Changers----------*/
+.medium {
+	width: 75%;
+}
+
+/*----------Background Deets----------*/
+body {
+  /* The image used */
+  background: url(../images/web.jpg);
+  background-attachment: fixed;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+}
+
+.facebook {
+	background:url(../images/fbwht.png) no-repeat;
+	height:29px;
+	padding-left:40px;
+	width:30px;
+}
+.facebook:hover {
+	background:url(../images/fbblue.png) no-repeat;
+}
+.twitter {
+	background:url(../images/twitwht.png) no-repeat;
+	height:29px;
+	padding-left:40px;
+	width:30px;
+}
+.twitter:hover {
+	background:url(../images/twitblue.png) no-repeat;
+}
+.google {
+	background:url(../images/instawht.png) no-repeat;
+	height:29px;
+	padding-left:40px;
+	width:30px;
+}
+.google:hover {
+	background:url(../images/instacol.png) no-repeat;
+}
+.youtube {
+	background:url(../images/ytsqwht.png) no-repeat;
+	height:29px;
+	padding-left:40px;
+	width:30px;
+}
+.youtube:hover {
+	background:url(../images/ytsqred.png) no-repeat;
+}
+
+
+.content {
+	background-color: rgb(107,63,16);
+	color: white;
+}
+.footer {
+	background-color: rgb(7,49,83);
+}
+
+@media only screen and (max-width: 600px) {
+	.medium {
+		width: 90%;
+	}
+}
+
+@media (min-width:1500px){
+	.container{
+		max-width:1440px
+	}
+}
