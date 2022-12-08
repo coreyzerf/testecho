@@ -1,0 +1,21 @@
+#Robots.txt created by Corey Zerf
+#You can use it. I don't really care. I'm not Apple
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: *
+Allow: /
+Disallow: /bin/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /files/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /old/
+Disallow: /reports/
+Disallow: /slides/
+Disallow: /test/
