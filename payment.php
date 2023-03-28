@@ -13,7 +13,7 @@ $enableSandbox = false;
 // Database settings. Change these for your database configuration.
 $dbConfig = [
 	'host' => 'localhost',
-	'password' => 'echolakecamp1956!',
+	'password' => 'XXXXXXXXXxxx!',
 	'name' => 'zerfca_admin'
 ];
 
